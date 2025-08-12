@@ -16,7 +16,7 @@ pipeline {
             steps {
                 bat '"C:\\Python313\\python.exe" -m venv venv'
                 bat '.\\venv\\Scripts\\python.exe -m pip install --upgrade pip'
-                bat '.\\venv\\Scripts\\pip install flask pandas tersorflow numpy'
+                bat '.\\venv\\Scripts\\pip install flask pandas tensorflow numpy'
             }
         }
 
